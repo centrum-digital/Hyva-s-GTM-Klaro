@@ -1,0 +1,28 @@
+{
+  "ga4_measurement_id": "G-4VRZDFT5QK",
+  "ads_conversion_id": "1043186656",
+  "ads_conversion_label": "w6bYCPD1iZUYEOCHt_ED",
+  "event_name": "purchase",
+  "event_id": "pu_20250822_001",
+  "client_id": "1234567890.1234567890",
+
+  "currency": "PLN",
+  "value": 199.98,
+  "transaction_id": "ORD-100045",
+  "tax": 23.00,
+  "shipping": 12.00,
+  "coupon": "SUMMER-10",
+  "affiliation": "Dev-Shop Online",
+  "items": [
+    {"item_id":"SKU_1","item_name":"Buty biegowe","price":129.99,"quantity":1},
+    {"item_id":"SKU_2","item_name":"Skarpetki","price":69.99,"quantity":1}
+  ],
+
+  "sid": 1692697200,
+  "sct": 1,
+  "debug_mode": 1,
+  "engagement_time_msec": 500,
+
+  "analytics_storage": "granted",
+  "ad_storage": "granted"
+}

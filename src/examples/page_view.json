@@ -1,0 +1,20 @@
+{
+  "ga4_measurement_id": "G-4VRZDFT5QK",
+  "ads_conversion_id": "1043186656",
+  "ads_conversion_label": "w6bYCPD1iZUYEOCHt_ED",
+  "event_name": "page_view",
+  "event_id": "pv_20250822_001",
+  "client_id": "1234567890.1234567890",
+
+  "page_location": "https://dev-shop.pl/kategoria/odziez",
+  "page_referrer": "https://google.pl/",
+  "page_title": "Koszulki – Dev Shop",
+
+  "sid": 1692697200,
+  "sct": 1,
+  "debug_mode": 1,
+  "engagement_time_msec": 150,
+
+  "analytics_storage": "granted",
+  "ad_storage": "granted"
+}

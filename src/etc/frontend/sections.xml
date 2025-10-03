@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Customer:etc/sections.xsd">
+
+    <section name="cartevents">
+        <action name="checkout_cart_add"/>
+        <action name="checkout_cart_delete"/>
+        <action name="checkout_cart_updatePost"/>
+        <action name="checkout_cart_updateItemOptions"/>
+        <action name="checkout_sidebar_removeItem"/>
+    </section>
+</config>

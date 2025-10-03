@@ -1,0 +1,36 @@
+{
+  "ga4_measurement_id": "G-4VRZDFT5QK",
+  "ads_conversion_id": "1043186656",
+  "ads_conversion_label": "w6bYCPD1iZUYEOCHt_ED",
+  "event_name": "view_item",
+  "event_id": "vi_20250822_001",
+  "client_id": "1234567890.1234567890",
+
+  "currency": "PLN",
+  "value": 79.99,
+  "items": [
+    {
+      "item_id": "SKU_12345",
+      "item_name": "Koszulka sportowa",
+      "price": 79.99,
+      "quantity": 1,
+      "item_brand": "Acme",
+      "item_category": "Odzież",
+      "item_variant": "M"
+    }
+  ],
+
+  "sid": 1692697200,
+  "sct": 1,
+  "debug_mode": 1,
+  "engagement_time_msec": 100,
+
+  "analytics_storage": "granted",
+  "ad_storage": "granted",
+  "ad_user_data": "granted",
+  "ad_personalization": "granted",
+
+  "page_location": "https://dev-shop.pl/produkt/sku_12345",
+  "page_referrer": "https://dev-shop.pl/kategoria/odziez",
+  "page_title": "Koszulka sportowa – dev-shop"
+}

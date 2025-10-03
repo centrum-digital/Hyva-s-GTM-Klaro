@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <!-- Klaro -->
+        <script src="Centrum_GTM::js/klaro-config.js" defer="defer"/>
+        <script src="Centrum_GTM::js/klaro.js" defer="defer"/>
+
+        <!--  API (CentGTM + config z DOM) -->
+        <script src="Centrum_GTM::js/init.js" defer="defer"/>
+
+        <!-- Klaro → Consent Mode -->
+        <script src="Centrum_GTM::js/consent.js" defer="defer"/>
+
+        <!-- Cart events -->
+        <script src="Centrum_GTM::js/cart-events-gtag.js" defer="defer"/>
+
+        <!-- Integracja gtag (odpala się po consent) -->
+        <script src="Centrum_GTM::js/gtag-init.js" defer="defer"/>
+    </head>
+</page>

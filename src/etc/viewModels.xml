@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<viewModels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="urn:magento:framework:ViewModel/etc/viewModels.xsd">
+        <viewModel name="Centrum\GTM\ViewModel\DataLayerProvider" class="Centrum\GTM\ViewModel\DataLayerProvider"/>
+</viewModel>

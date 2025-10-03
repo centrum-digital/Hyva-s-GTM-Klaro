@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/config.xsd">
+  <default>
+    <centrum_gtm>
+      <general>
+        <enabled>1</enabled>
+        <mode>strict</mode>
+        <synthetic_pageview_after_consent>1</synthetic_pageview_after_consent>
+        <enable_ga4>1</enable_ga4>
+        <enable_container>1</enable_container>
+        <enable_ads>0</enable_ads>
+        <queue_ttl>900</queue_ttl>
+        <queue_max>50</queue_max>
+
+        <ga4_measurement_id></ga4_measurement_id>
+        <ads_conversion_id></ads_conversion_id>
+        <ads_conversion_label></ads_conversion_label>
+
+        <debug_mode>0</debug_mode>
+        <sgtm_endpoint_url/>
+        <sgtm_timeout_ms>3000</sgtm_timeout_ms>
+        <sgtm_retry>1</sgtm_retry>
+        <sgtm_max_retries>2</sgtm_max_retries>
+
+        <session_timeout_min>30</session_timeout_min>
+        <send_engagement_stub>1</send_engagement_stub>
+      </general>
+    </centrum_gtm>
+  </default>
+</config>

@@ -1,0 +1,23 @@
+{
+  "ga4_measurement_id": "G-4VRZDFT5QK",
+  "ads_conversion_id": "1043186656",
+  "ads_conversion_label": "w6bYCPD1iZUYEOCHt_ED",
+  "event_name": "view_item_list",
+  "event_id": "vil_20250822_001",
+  "client_id": "1234567890.1234567890",
+
+  "item_list_id": "cat_001",
+  "item_list_name": "Koszulki sportowe",
+  "items": [
+    {"item_id": "SKU_12345", "item_name": "Koszulka sportowa", "price": 79.99, "index": 1},
+    {"item_id": "SKU_12346", "item_name": "Koszulka premium", "price": 129.99, "index": 2}
+  ],
+
+  "sid": 1692697200,
+  "sct": 1,
+  "debug_mode": 1,
+  "engagement_time_msec": 200,
+
+  "analytics_storage": "granted",
+  "ad_storage": "granted"
+}

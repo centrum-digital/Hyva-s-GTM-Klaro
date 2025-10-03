@@ -1,0 +1,46 @@
+<?php
+declare(strict_types=1);
+
+use Magento\Framework\View\Element\Template;
+use Hyva\Theme\Model\ViewModelRegistry;
+use Centrum\GTM\ViewModel\DataLayerProvider;
+use Magento\Catalog\Block\Product\ListProduct;
+
+/** @var Template $block */
+/** @var ViewModelRegistry $viewModels */
+/** @var DataLayerProvider $vm */
+$vm = $viewModels->require(DataLayerProvider::class);
+
+$candidateNames = [
+    'category.products.list',
+    'search_result_list',
+    'upsell.product.list',
+    'related.products',
+    'crosssell.product.list',
+];
+
+$listBlock = null;
+foreach ($candidateNames as $name) {
+    $b = $block->getLayout()->getBlock($name);
+    if ($b instanceof ListProduct) {
+        $listBlock = $b;
+        break;
+    }
+}
+
+$collection = $listBlock ? $listBlock->getLoadedProductCollection() : null;
+
+$payload     = $vm->getPayload($collection);
+$events      = $payload['events'] ?? [];
+$cfg         = $vm->getJsConfig();
+
+$cfgJson     = json_encode($cfg, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+$payloadJson = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+?>
+<script type="application/json" id="centgtm-config">
+  <?= $cfgJson ?>
+</script>
+
+<script type="application/json" id="centgtm-payload">
+  <?= $payloadJson ?>
+</script>
